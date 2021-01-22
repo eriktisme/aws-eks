@@ -1,0 +1,9 @@
+apiVersion: v1
+name: ambassador-config
+description: A Helm chart to manage Ambassador configurations.
+
+type: application
+
+version: 0.0.0
+
+appVersion: v1

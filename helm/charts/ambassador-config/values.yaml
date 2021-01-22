@@ -1,0 +1,8 @@
+ambassador:
+  hostname: "scaling.company"
+
+consul:
+  namepace: "consul"
+  port: 8500
+  resolverName: "consul-dc1"
+  datacenter: "dc1"

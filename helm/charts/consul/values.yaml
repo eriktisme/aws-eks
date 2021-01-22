@@ -1,0 +1,18 @@
+global:
+  name: consul
+  acls:
+    manageSYstemACLS: false
+
+ui:
+  enabled: true
+
+server:
+  replicas: 1
+  bootstrapExpect: 1
+
+syncCatalog:
+  enabled: true
+
+connectInject:
+  enabled: true
+  k8sAllowNamespace: ["*"]
